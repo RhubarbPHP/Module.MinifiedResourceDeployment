@@ -12,6 +12,8 @@ class MinifiedResourceDeploymentProvider extends RelocationResourceDeploymentPro
     protected function deployFile($originalPath, $calculatePathOnly = false)
     {
         if (preg_match('/\.js$/', $originalPath, $match)) {
+            $originalPath = realpath($originalPath);
+
             // Remove the current working directory from the resource path.
             $cwd = Application::current()->applicationRootPath;
             $urlPath = "/deployed" . str_replace("\\", "/", str_replace($cwd, "", $originalPath));

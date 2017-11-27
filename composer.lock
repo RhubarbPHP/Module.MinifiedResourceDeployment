@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "85d787136f51c2cf6f06a27ba6c4df14",
+    "content-hash": "6c924172e94d7e307494234d16072a2f",
     "packages": [
         {
             "name": "firebase/php-jwt",
@@ -103,16 +103,16 @@
         },
         {
             "name": "rhubarbphp/rhubarb",
-            "version": "1.5.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RhubarbPHP/Rhubarb.git",
-                "reference": "d78e4345ebfd176ee5e39e2695ef55c1f8a9aeae"
+                "reference": "ea9a16cf54ed919ce6672335ec48d422ce0c85ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RhubarbPHP/Rhubarb/zipball/d78e4345ebfd176ee5e39e2695ef55c1f8a9aeae",
-                "reference": "d78e4345ebfd176ee5e39e2695ef55c1f8a9aeae",
+                "url": "https://api.github.com/repos/RhubarbPHP/Rhubarb/zipball/ea9a16cf54ed919ce6672335ec48d422ce0c85ce",
+                "reference": "ea9a16cf54ed919ce6672335ec48d422ce0c85ce",
                 "shasum": ""
             },
             "require": {
@@ -147,7 +147,7 @@
                 "framework",
                 "php"
             ],
-            "time": "2017-11-27T12:54:23+00:00"
+            "time": "2017-11-27T15:05:04+00:00"
         }
     ],
     "packages-dev": [
