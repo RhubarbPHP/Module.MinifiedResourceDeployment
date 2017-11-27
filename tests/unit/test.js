@@ -1,0 +1,6 @@
+
+function thisIsAFunction(){
+
+}
+
+thisIsAFunction();
